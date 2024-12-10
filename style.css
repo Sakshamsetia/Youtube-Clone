@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+.body{
+    display: block;
+}
+.nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.icon i{
+    font-size: 25px;
+    color: white;
+}
+.image{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 160px;
+}
+.search{
+    margin-left: 180px;
+    max-width: 150px;
+}
+.search input{
+    height: 30px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.search input:hover{
+    border: 3px solid rgb(255, 233, 0);
+}
+.mic{
+    margin-top: 5px;
+    margin-left: 280px;
+    margin-right:420px;
+}
+.mic i{
+    font-size: 25px;
+    color: white;
+}
+
+.video{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.video i{
+    font-size: 25px;
+    color: white;
+}
+.bell{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.bell i{
+    font-size: 25px;
+    color: white;
+}
+.profile{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.profile i{
+    height: 40px;
+    width: 40px;
+    font-size:25px ;
+    color: white;
+    border-radius: 45px;
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slidebar {
+    font-size: 15px;
+    height: 100vh;
+    width: 12.5%;
+    display: block;
+    overflow: scroll;
+    float: left;
+}
+.slidebar::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.home{
+    margin-top: 20px;
+    margin-bottom: 15px;;
+}
+.home i{
+    font-size: 20px;
+    margin-right:8px;
+    color: white;
+}
+.shorts{
+    margin-bottom: 15px;
+}
+.shorts i{
+    font-size: 20px;
+    margin-right:8px;
+    color: white;
+}
+.subscr{
+    margin-bottom: 15px;
+}
+.subscr i{
+    font-size: 20px;
+    margin-right:8px;
+    color: white;
+}
+.line{
+    height: 1px;
+    width: 150px;
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.you{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.inyou i{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-right:8px;
+    color: white;
+}
+.subs{
+    display: inline-block;
+}
+.subsc i{
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    font-size:15px ;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(80, 80, 80);
+    justify-content: center;
+    align-items: center;
+}
+.main-content {
+    margin-left: 500px;
+    height: 100vh;
+    width: 900px;
+    background-color: red;
+    float: right;
+    overflow: scroll;
+}
+.slidebar::-webkit-scrollbar{
+    display: none;
+}
+.b{
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    /* padding */
+    text-align: center;
+    text-decoration: none;
+    /* font-size */
+    margin: 15px 18px;
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border-radius: 30%;
+}
+.c1 {
+    float: left;
+    width: 29%;
+    height: 100vhpx;
+}
+
+.c2 {
+    float: left;
+    width: 29%;
+    height: 100vh;
+}
+
+.c3 {
+    float: right;
+    width: 29%;
+    height: 100vh;
+}
+.box1{
+
+    width: 30%;
+    height: 320px;
+    display: contents;
+    
+}
+.box1 iframe{
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.box2{
+
+    width: 30%;
+    height: 320px;
+    display: contents;
+}
+.box2 iframe{
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.h {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.l {
+    color: rgb(157, 157, 157);
+    font-size: 14px;
+    margin-left: 25px;
+}
